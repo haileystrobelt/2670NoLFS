@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            <state relative-caret-position="-299">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <marker date="1599714581254" expanded="true" signature="112:1658" ph="{...}" />
                 <marker date="1599714581254" expanded="true" signature="504:607" ph="{...}" />
@@ -72,19 +72,6 @@
               <folding>
                 <marker date="1600272341752" expanded="true" signature="81:196" ph="{...}" />
                 <marker date="1600272341752" expanded="true" signature="161:194" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <marker date="1600272504553" expanded="true" signature="97:363" ph="{...}" />
-                <marker date="1600272504553" expanded="true" signature="185:360" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -192,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="395" />
     <option name="y" value="102" />
     <option name="width" value="840" />
@@ -255,12 +242,12 @@
       <workItem from="1600113024068" duration="1159000" />
       <workItem from="1600271961821" duration="4067000" />
       <workItem from="1600488485364" duration="2548000" />
-      <workItem from="1600785347044" duration="692000" />
+      <workItem from="1600785347044" duration="3181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45461000" />
+    <option name="totallyTimeSpent" value="47950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,8 +259,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="395" y="102" width="840" height="502" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.322807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -379,6 +365,7 @@
         <state relative-caret-position="60">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
+            <marker date="1600272448825" expanded="true" signature="58:330" ph="{...}" />
             <marker date="1600272448825" expanded="true" signature="122:328" ph="{...}" />
           </folding>
         </state>
@@ -434,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="-299">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <marker date="1599714581254" expanded="true" signature="112:1658" ph="{...}" />
             <marker date="1599714581254" expanded="true" signature="504:607" ph="{...}" />
