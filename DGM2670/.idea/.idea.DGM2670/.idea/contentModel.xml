@@ -10,11 +10,15 @@
           <e p="AddScore.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
+          <e p="Datas" t="Include">
+            <e p="FloatData.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+          </e>
           <e p="Instancer.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
+          <e p="JumpPowerUp.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
+          <e p="LookAtBehaviour.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
