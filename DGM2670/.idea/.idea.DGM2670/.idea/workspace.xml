@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2210 3D Modeling/PracticeModeling/Model1.hipnc" beforeDir="false" afterPath="$PROJECT_DIR$/../2210 3D Modeling/PracticeModeling/Model1.hipnc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Ammo.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Ammo.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Damage.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Damage.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Health.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Health.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/HighScore.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/HighScore.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Lives.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Lives.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Money.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Money.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Score.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Score.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Speed.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Datas/IntDatas/Speed.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/FloatData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,12 +257,12 @@
       <workItem from="1600488485364" duration="2548000" />
       <workItem from="1600785347044" duration="3181000" />
       <workItem from="1601011713306" duration="1878000" />
-      <workItem from="1601271549358" duration="2590000" />
+      <workItem from="1601271549358" duration="2930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52418000" />
+    <option name="totallyTimeSpent" value="52758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
