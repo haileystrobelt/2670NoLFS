@@ -62,8 +62,10 @@ public class CharacterMover : MonoBehaviour
         controller.Move(movement * Time.deltaTime);
     }
 
+    
+
     private void OnEnable()
     {
-        //set the position of the player to the location data of the player
+        //Set the position of the player to the location data of the player
     }
 }

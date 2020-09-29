@@ -9,7 +9,7 @@ public class JumpPowerUp : MonoBehaviour
     
     private void Start()
     {
-        playerJumpCount = normalJumpCount.value;
+        playerJumpCount.value = normalJumpCount.value;
     }
 
     private IEnumerator OnTriggerEnter(Collider other)

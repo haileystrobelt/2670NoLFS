@@ -13,6 +13,7 @@
           <e p="Datas" t="Include">
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Instancer.cs" t="Include" />
           <e p="JumpPowerUp.cs" t="Include" />
@@ -22,7 +23,7 @@
           <e p="MoveLocator.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
-          <e p="Vector3 Data.cs" t="Include" />
+          <e p="SpawnPoint.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />
