@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/IntDatas/Jumps/DoubleJump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntDatas/Jumps/DoubleJump.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/IntDatas/Jumps/SingleJump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/IntDatas/Jumps/SingleJump.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vector3 Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vector3 Data.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,12 +250,12 @@
       <workItem from="1600488485364" duration="2548000" />
       <workItem from="1600785347044" duration="3181000" />
       <workItem from="1601011713306" duration="1878000" />
-      <workItem from="1601271549358" duration="7128000" />
+      <workItem from="1601271549358" duration="7722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56956000" />
+    <option name="totallyTimeSpent" value="57550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
