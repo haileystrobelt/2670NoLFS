@@ -42,6 +42,7 @@ public class CharacterMover : MonoBehaviour
         
         
         var hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
+        
         transform.Rotate(0,hInput,0);
 
         yVar += gravity*Time.deltaTime;

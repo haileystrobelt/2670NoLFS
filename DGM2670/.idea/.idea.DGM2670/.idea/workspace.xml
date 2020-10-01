@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2210 3D Modeling/Flowers/Flower1.hipnc" beforeDir="false" afterPath="$PROJECT_DIR$/../2210 3D Modeling/Flowers/Flower1.hipnc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/BlueMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/BlueMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/GreenMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/GreenMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/RedMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Materials/RedMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/WalkRun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/WalkRun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +23,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="660">
+              <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
               <folding>
-                <marker date="1601376431683" expanded="true" signature="112:1664" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="504:607" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="634:1539" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="690:745" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="793:850" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="1188:1259" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="1338:1413" ph="{...}" />
-                <marker date="1601376431683" expanded="true" signature="1574:1662" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="112:1673" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="504:607" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="634:1548" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="690:745" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="793:850" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="1197:1268" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="1347:1422" ph="{...}" />
+                <marker date="1601569854938" expanded="true" signature="1583:1671" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="150">
               <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <marker date="1601374986857" expanded="false" signature="6:44" ph="..." />
@@ -188,9 +190,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/Vector3 Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -260,12 +262,12 @@
       <workItem from="1600785347044" duration="3181000" />
       <workItem from="1601011713306" duration="1878000" />
       <workItem from="1601271549358" duration="7722000" />
-      <workItem from="1601495365789" duration="3086000" />
+      <workItem from="1601495365789" duration="4976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60636000" />
+    <option name="totallyTimeSpent" value="62526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,19 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <marker date="1601374986857" expanded="false" signature="6:44" ph="..." />
-            <marker date="1601374986857" expanded="true" signature="86:654" ph="{...}" />
-            <marker date="1601374986857" expanded="true" signature="218:285" ph="{...}" />
-            <marker date="1601374986857" expanded="true" signature="341:652" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Datas/Vector3Data.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -491,19 +480,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/JumpPowerUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1601374986857" expanded="false" signature="6:44" ph="..." />
+            <marker date="1601374986857" expanded="true" signature="86:654" ph="{...}" />
+            <marker date="1601374986857" expanded="true" signature="218:285" ph="{...}" />
+            <marker date="1601374986857" expanded="true" signature="341:652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="660">
+          <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
           <folding>
-            <marker date="1601376431683" expanded="true" signature="112:1664" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="504:607" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="634:1539" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="690:745" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="793:850" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="1188:1259" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="1338:1413" ph="{...}" />
-            <marker date="1601376431683" expanded="true" signature="1574:1662" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="112:1673" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="504:607" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="634:1548" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="690:745" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="793:850" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="1197:1268" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="1347:1422" ph="{...}" />
+            <marker date="1601569854938" expanded="true" signature="1583:1671" ph="{...}" />
           </folding>
         </state>
       </provider>
