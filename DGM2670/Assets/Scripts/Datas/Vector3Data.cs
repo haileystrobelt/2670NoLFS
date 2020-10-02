@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu]
 public class Vector3Data : ScriptableObject
@@ -16,6 +14,13 @@ public class Vector3Data : ScriptableObject
     {
         value = obj.position;
     }
+    
+       
+    public void SetPositionFromValue(Transform obj)
+    {
+        obj.position = value;
+    }
+
 
     public void SetValueFromRotation(Transform obj)
     {
@@ -28,5 +33,10 @@ public class Vector3Data : ScriptableObject
         {    
             value = hit.point;
         }
+    }
+
+    public void SetValueFromTransform(Vector3 transformPosition)
+    {
+        throw new System.NotImplementedException();
     }
 }

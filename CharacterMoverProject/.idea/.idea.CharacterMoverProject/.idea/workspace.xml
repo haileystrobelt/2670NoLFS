@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a244d92-6161-4c86-8bf6-507a652277ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BlueMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BlueMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/GreenMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GreenMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RedMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RedMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalkRun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalkRun.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/ApplyForce.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/ApplyForce.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/CharacterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/CharacterMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Datas/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Datas/Vector3Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Instancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Instancer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/SpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/SpawnPoint.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +22,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkRun.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            <state relative-caret-position="270">
+              <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
               <folding>
-                <marker date="1601571524556" expanded="true" signature="56:729" ph="{...}" />
-                <marker date="1601571524556" expanded="true" signature="318:396" ph="{...}" />
-                <marker date="1601571524556" expanded="true" signature="454:727" ph="{...}" />
-                <marker date="1601571524556" expanded="true" signature="551:601" ph="{...}" />
+                <marker date="1601590351782" expanded="true" signature="56:958" ph="{...}" />
+                <marker date="1601590351782" expanded="true" signature="351:429" ph="{...}" />
+                <marker date="1601590351782" expanded="true" signature="487:956" ph="{...}" />
+                <marker date="1601590351782" expanded="true" signature="584:634" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,10 +50,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="487" />
-    <option name="y" value="-8" />
+    <option name="x" value="454" />
+    <option name="y" value="94" />
     <option name="width" value="749" />
-    <option name="height" value="451" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,12 +115,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601501585438</updated>
-      <workItem from="1601501589479" duration="4788000" />
+      <workItem from="1601501589479" duration="5501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4788000" />
+    <option name="totallyTimeSpent" value="5501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,13 +183,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WalkRun.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding>
-            <marker date="1601571524556" expanded="true" signature="56:729" ph="{...}" />
-            <marker date="1601571524556" expanded="true" signature="318:396" ph="{...}" />
-            <marker date="1601571524556" expanded="true" signature="454:727" ph="{...}" />
-            <marker date="1601571524556" expanded="true" signature="551:601" ph="{...}" />
+            <marker date="1601590351782" expanded="true" signature="56:958" ph="{...}" />
+            <marker date="1601590351782" expanded="true" signature="351:429" ph="{...}" />
+            <marker date="1601590351782" expanded="true" signature="487:956" ph="{...}" />
+            <marker date="1601590351782" expanded="true" signature="584:634" ph="{...}" />
           </folding>
         </state>
       </provider>

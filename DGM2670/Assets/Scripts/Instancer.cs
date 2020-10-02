@@ -4,6 +4,8 @@ public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
     
+    //Make a method to call the Instance Method, firing method
+    
     public void Instance()
     {
         var location = transform.position;

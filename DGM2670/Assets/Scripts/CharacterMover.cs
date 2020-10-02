@@ -67,6 +67,6 @@ public class CharacterMover : MonoBehaviour
 
     private void OnEnable()
     {
-        //Set the position of the player to the location data of the player
+        transform.position = currentSpawnPoint.value;
     }
 }
