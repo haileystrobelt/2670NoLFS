@@ -10,11 +10,5 @@ public class MouseLocationBehaviour : MonoBehaviour
         cam = Camera.main;
     }
 
-    private void OnMouseDown()
-    {
-        if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
-        {
-            locationData.SetValueFromVector3(hit.point);
-        }
-    }
+   
 }

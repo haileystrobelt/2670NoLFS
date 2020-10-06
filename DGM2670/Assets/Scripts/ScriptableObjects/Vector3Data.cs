@@ -21,4 +21,12 @@ public class Vector3Data : ScriptableObject
         value = obj.eulerAngles;
     }
     
+    private void OnMouseDown()
+    {
+        if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
+        {
+            locationData.SetValueFromVector3(hit.point);
+        }
+    }
+    
 }
