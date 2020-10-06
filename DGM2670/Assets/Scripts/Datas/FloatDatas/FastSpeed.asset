@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6028c3bd6c83a6c44b426ab33f9138b6, type: 3}
   m_Name: FastSpeed
   m_EditorClassIdentifier: 
-  value: 1
-  maxValue: 1
+  value: 7

@@ -7,7 +7,7 @@ public class CharacterMover : MonoBehaviour
     private CharacterController controller;
     private Vector3 movement;
 
-    public float rotateSpeed = 30f, gravity = -9.81f, jumpForce = 10f;
+    public float rotateSpeed = 200f, gravity = -9.81f, jumpForce = 5f;
     private float yVar;
 
     public FloatData normalSpeed, fastSpeed;

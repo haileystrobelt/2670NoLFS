@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
 
-public class MoveLocator : MonoBehaviour
+public class MouseLocationBehaviour : MonoBehaviour
 {
     private Camera cam;
-    public Transform pointObj;
+    public Vector3Data locationData;
     
     private void Start()
     {
         cam = Camera.main;
     }
 
-    private void Update()
+    private void OnMouseDown()
     {
         if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
         {
-            pointObj.position = hit.point;
+            locationData.SetValueFromVector3(hit.point);
         }
     }
 }

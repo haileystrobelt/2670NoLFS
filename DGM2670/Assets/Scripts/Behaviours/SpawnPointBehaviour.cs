@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPoint : MonoBehaviour
+public class SpawnPointBehaviour : MonoBehaviour
 {
-    public Vector3Data vData;
+    /*public Vector3Data vData;
     
     //Set the vData from the position value on start
     
     private void OnTriggerEnter(Collider other)
     {
         vData.SetValueFromTransform(transform.position);
-    }
+    }*/
+    
 }
+
