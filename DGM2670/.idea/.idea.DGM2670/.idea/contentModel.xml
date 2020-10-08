@@ -12,11 +12,12 @@
             <e p="CharacterMover.cs" t="Include" />
             <e p="EnemyConfig.cs" t="Include" />
             <e p="InstancerBehaviour.cs" t="Include" />
-            <e p="LookAtBehaviour.cs" t="Include" />
+            <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
-            <e p="MouseLocationBehaviour.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPointBehaviour.cs" t="Include" />
+            <e p="TriggerEventsBehaviour.cs" t="Include" />
+            <e p="TurretBehaviour.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="Debugger.cs" t="Include" />

@@ -8,6 +8,6 @@ public class InstancerBehaviour : MonoBehaviour
     public void Instance()
     {
         var location = transform.position;
-        Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
+        var newObj = Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
     }
 }

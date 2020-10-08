@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class LookAtBehaviour : MonoBehaviour
+public class TurretBehaviour : MonoBehaviour
 {
     public void OnLook(Vector3Data obj)
     {
