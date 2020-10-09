@@ -10,8 +10,6 @@ public class Jump : MonoBehaviour
     public float gravity = -9.81f, jumpForce = 5f;
     private float yVar;
 
-    public FloatData jumpSpeed;
-    
     public IntData playerJumpCount;
     private int jumpCount;
     
@@ -22,11 +20,8 @@ public class Jump : MonoBehaviour
 
     private void Update()
     {
-
-        var vInput = Input.GetAxis("Vertical")*jumpSpeed.value;
         movement.Set(0,yVar,0);
         
-
         yVar += gravity*Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)

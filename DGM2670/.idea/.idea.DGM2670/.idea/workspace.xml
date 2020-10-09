@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="" />
+    <list default="true" id="0b5cf9ab-63f4-4a93-9d67-0136d0c551fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Datas/Float.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Datas/Float.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Datas/Int.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Datas/Int.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CharacterMoverProject/Assets/Scripts/Jump/Jump.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AIBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
                 <marker date="1602266696785" expanded="true" signature="6:66" ph="..." />
                 <marker date="1602266696785" expanded="true" signature="149:929" ph="{...}" />
@@ -244,9 +251,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="572" />
-    <option name="y" value="125" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="623" />
+    <option name="y" value="377" />
     <option name="width" value="864" />
     <option name="height" value="603" />
   </component>
@@ -314,12 +321,12 @@
       <workItem from="1601495365789" duration="9119000" />
       <workItem from="1601859203805" duration="18087000" />
       <workItem from="1602093733494" duration="8123000" />
-      <workItem from="1602199528719" duration="2991000" />
+      <workItem from="1602199528719" duration="4174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95870000" />
+    <option name="totallyTimeSpent" value="97053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AIBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
             <marker date="1602266696785" expanded="true" signature="6:66" ph="..." />
             <marker date="1602266696785" expanded="true" signature="149:929" ph="{...}" />
