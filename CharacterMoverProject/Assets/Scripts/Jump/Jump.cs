@@ -4,6 +4,7 @@
 
 public class Jump : MonoBehaviour
 {
+    /*
     private CharacterController controller;
     private Vector3 movement;
 
@@ -12,15 +13,12 @@ public class Jump : MonoBehaviour
 
     public IntData playerJumpCount;
     private int jumpCount;
-    
-    private void Start()
-    {
-        controller = GetComponent<CharacterController>();
-    }
+    */
+
 
     private void Update()
     {
-        movement.Set(0,yVar,0);
+        /*movement.Set(0,yVar,0);
         
         yVar += gravity*Time.deltaTime;
 
@@ -37,6 +35,6 @@ public class Jump : MonoBehaviour
         }
         
         movement = transform.TransformDirection(movement);
-        controller.Move(movement * Time.deltaTime);
+        controller.Move(movement * Time.deltaTime);*/
     }
 }
