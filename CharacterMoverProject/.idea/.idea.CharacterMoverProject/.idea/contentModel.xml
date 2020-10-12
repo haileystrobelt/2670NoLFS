@@ -14,6 +14,8 @@
             <e p="Jump.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="TimerUI.cs" t="Include" />
+          <e p="TriggerBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="CharacterMoverProject.sln" t="IncludeFlat" />
