@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a244d92-6161-4c86-8bf6-507a652277ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MergeSandbox1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MergeSandbox1.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <marker date="1602447898389" expanded="true" signature="63:1328" ph="{...}" />
                 <marker date="1602447898389" expanded="true" signature="374:441" ph="{...}" />
@@ -46,27 +44,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="795">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
-                <marker date="1602541514497" expanded="true" signature="6:44" ph="..." />
-                <marker date="1602541514497" expanded="true" signature="133:1168" ph="{...}" />
-                <marker date="1602541514497" expanded="true" signature="439:681" ph="{...}" />
-                <marker date="1602541514497" expanded="true" signature="731:911" ph="{...}" />
-                <marker date="1602541514497" expanded="true" signature="966:1166" ph="{...}" />
+                <marker date="1602542567233" expanded="true" signature="6:44" ph="..." />
+                <marker date="1602542567233" expanded="true" signature="133:1186" ph="{...}" />
+                <marker date="1602542567233" expanded="true" signature="439:699" ph="{...}" />
+                <marker date="1602542567233" expanded="true" signature="749:929" ph="{...}" />
+                <marker date="1602542567233" expanded="true" signature="984:1184" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimerUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <marker date="1602541440368" expanded="true" signature="6:92" ph="..." />
                 <marker date="1602541440368" expanded="true" signature="130:601" ph="{...}" />
@@ -83,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump/FloatData.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <marker date="1601350497050" expanded="true" signature="80:108" ph="{...}" />
               </folding>
@@ -134,8 +132,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
-    <option name="y" value="34" />
+    <option name="x" value="603" />
+    <option name="y" value="42" />
     <option name="width" value="864" />
     <option name="height" value="603" />
   </component>
@@ -204,12 +202,12 @@
       <workItem from="1602093045120" duration="4215000" />
       <workItem from="1602276775231" duration="3449000" />
       <workItem from="1602447079504" duration="1615000" />
-      <workItem from="1602536697928" duration="5401000" />
+      <workItem from="1602536697928" duration="6089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23824000" />
+    <option name="totallyTimeSpent" value="24512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +286,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
           <folding>
             <marker date="1601350497050" expanded="true" signature="80:108" ph="{...}" />
           </folding>
@@ -315,24 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <marker date="1602541514497" expanded="true" signature="6:44" ph="..." />
-            <marker date="1602541514497" expanded="true" signature="133:1168" ph="{...}" />
-            <marker date="1602541514497" expanded="true" signature="439:681" ph="{...}" />
-            <marker date="1602541514497" expanded="true" signature="731:911" ph="{...}" />
-            <marker date="1602541514497" expanded="true" signature="966:1166" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <marker date="1602447898389" expanded="true" signature="63:1328" ph="{...}" />
             <marker date="1602447898389" expanded="true" signature="374:441" ph="{...}" />
@@ -346,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimerUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <marker date="1602541440368" expanded="true" signature="6:92" ph="..." />
             <marker date="1602541440368" expanded="true" signature="130:601" ph="{...}" />
@@ -355,6 +339,20 @@
             <marker date="1602541440368" expanded="true" signature="308:507" ph="{...}" />
             <marker date="1602541440368" expanded="true" signature="376:501" ph="{...}" />
             <marker date="1602541440368" expanded="true" signature="539:599" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <marker date="1602542567233" expanded="true" signature="6:44" ph="..." />
+            <marker date="1602542567233" expanded="true" signature="133:1186" ph="{...}" />
+            <marker date="1602542567233" expanded="true" signature="439:699" ph="{...}" />
+            <marker date="1602542567233" expanded="true" signature="749:929" ph="{...}" />
+            <marker date="1602542567233" expanded="true" signature="984:1184" ph="{...}" />
           </folding>
         </state>
       </provider>
