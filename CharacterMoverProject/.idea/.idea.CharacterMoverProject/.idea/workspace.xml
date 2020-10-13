@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a244d92-6161-4c86-8bf6-507a652277ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CharacterMoverProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/.idea/.idea.DGM2670/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Behaviours/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DGM2670/Assets/Scripts/Behaviours/AIBehaviour.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,12 +204,12 @@
       <workItem from="1602093045120" duration="4215000" />
       <workItem from="1602276775231" duration="3449000" />
       <workItem from="1602447079504" duration="1615000" />
-      <workItem from="1602536697928" duration="6089000" />
+      <workItem from="1602536697928" duration="6600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24512000" />
+    <option name="totallyTimeSpent" value="25023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +221,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="34" width="864" height="603" extended-state="0" />
+    <frame x="603" y="42" width="864" height="603" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22636816" />
