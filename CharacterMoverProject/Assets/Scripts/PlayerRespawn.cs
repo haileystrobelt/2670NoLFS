@@ -4,7 +4,8 @@
 public class PlayerRespawn : MonoBehaviour
 {
 
-    public FloatData value;
+    public FloatData health;
+    public float resetHealth = 100f;
     public GameObject spawnPoint;
     [SerializeField] private CharacterController myCharacterControllerScript;
     private ClampFloatData healthClamp;
@@ -16,7 +17,7 @@ public class PlayerRespawn : MonoBehaviour
     }
     void Update()
     {
-        if ( value.value <= 0f)
+        if (health.value <= 0f)
         {
             myCharacterControllerScript.enabled = false;
             healthClamp.enabled = false;
@@ -26,8 +27,11 @@ public class PlayerRespawn : MonoBehaviour
             {
                 healthClamp.enabled = true;
                 myCharacterControllerScript.enabled = true;
+                health.value += resetHealth;
             }       
                 
         }
+        
+        
     }
 }

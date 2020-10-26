@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour
+public class HealthChange : MonoBehaviour
 {
-    public float healthAmount = 20f;
-    public FloatData playerHealth, maxHeath;
+    public FloatData playerHealth, maxHeath, healthChange;
 
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("The damage is" + healthAmount);
-            playerHealth.value += healthAmount;
+            playerHealth.value += healthChange.value;
             playerHealth.value = Mathf.Clamp(playerHealth.value, 0f, maxHeath.value);
         }
 

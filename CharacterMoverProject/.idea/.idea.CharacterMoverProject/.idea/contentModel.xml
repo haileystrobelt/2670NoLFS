@@ -11,10 +11,10 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="ClampFloatData.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="HealthChange.cs" t="Include" />
           <e p="HealthImageBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
-          <e p="PlayerHealth.cs" t="Include" />
           <e p="PlayerRespawn.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="SliderBehaviour.cs" t="Include" />
