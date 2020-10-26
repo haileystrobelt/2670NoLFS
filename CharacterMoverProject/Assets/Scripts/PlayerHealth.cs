@@ -2,12 +2,19 @@
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float playerHeath = 1f;
-    public float playerHealthChange = 0.1f;
+    public float healthAmount = 20f;
+    public FloatData playerHealth, maxHeath;
 
 
     private void OnTriggerEnter(Collider other)
     {
-        playerHeath -= playerHealthChange;
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("The damage is" + healthAmount);
+            playerHealth.value += healthAmount;
+            playerHealth.value = Mathf.Clamp(playerHealth.value, 0f, maxHeath.value);
+        }
+
     }
+
 }
