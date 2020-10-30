@@ -19,6 +19,7 @@
             <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="EnemyConfig.cs" t="Include" />
+            <e p="GameActionHandler.cs" t="Include" />
             <e p="InstancerBehaviour.cs" t="Include" />
             <e p="InvokeBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
@@ -33,6 +34,7 @@
             <e p="CharacterStateMachineData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />

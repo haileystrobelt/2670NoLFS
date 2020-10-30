@@ -2,6 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
+
 public class CharacterBehaviour : MonoBehaviour
 {
     public float rotateSpeed = 120f, gravity = -9.81f, jumpForce = 10f;
@@ -15,14 +16,19 @@ public class CharacterBehaviour : MonoBehaviour
     protected float vInput, hInput;
     protected FloatData moveSpeed;
     
-    private float yVar;
+    protected float yVar;
     private int jumpCount;
 
-    private void Start()
+    private void OnEnable()
     {
         moveSpeed = normalSpeed;
         controller = GetComponent<CharacterController>();
         StartCoroutine(Move());
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
     }
 
     protected IEnumerator Move()
@@ -30,22 +36,21 @@ public class CharacterBehaviour : MonoBehaviour
         canMove = true;
         while (canMove)
         {
-            OnHorizontal();
-            OnVertical();
             OnMove();
             yield return wffu;
         }
     }
-
+    
     protected virtual void OnHorizontal()
     {
-        hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
+        //hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
         transform.Rotate(0,hInput,0);
     }
 
     protected virtual void OnVertical()
     {
-        vInput = Input.GetAxis("Vertical")*moveSpeed.value;
+        vInput = Input.GetAxis("Horizontal")*moveSpeed.value;
+        movement.Set(vInput,yVar,0);
     }
 
     private void OnMove()
@@ -59,6 +64,9 @@ public class CharacterBehaviour : MonoBehaviour
         {
             moveSpeed = normalSpeed;
         }
+        
+        OnVertical();
+        OnHorizontal();
 
         yVar += gravity*Time.deltaTime;
 
@@ -74,7 +82,6 @@ public class CharacterBehaviour : MonoBehaviour
             jumpCount++;
         }
         
-        movement.Set(vInput,yVar,hInput);
         movement = transform.TransformDirection(movement);
         controller.Move((movement) * Time.deltaTime);
     }
