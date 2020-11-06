@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: TunnelofCrystals.ma
-//Last modified: Wed, Nov 04, 2020 02:28:14 PM
+//Last modified: Wed, Nov 04, 2020 05:52:48 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -72294,7 +72294,7 @@ createNode mesh -n "polySurfaceShape151" -p "polySurface151";
 createNode transform -s -n "persp";
 	rename -uid "5DEA4E83-4528-62DE-6A98-D6A21B07C170";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.2908676786617419 78.568500193764876 110.10726837950523 ;
+	setAttr ".t" -type "double3" 4.1398454180361348 70.497145901972331 114.58740075839796 ;
 	setAttr ".r" -type "double3" -29.138352729687625 361.39999999968893 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D3AA3BCE-4A1A-2B8D-3063-B7B449570761";

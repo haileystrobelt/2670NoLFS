@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: RattlesnakeWoods.ma
-//Last modified: Wed, Nov 04, 2020 02:26:23 PM
+//Last modified: Wed, Nov 04, 2020 05:52:54 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -166,8 +166,8 @@ createNode mesh -n "pCubeShape46" -p "pCube46";
 createNode transform -s -n "persp";
 	rename -uid "BDF500C9-423C-AD93-FBEE-AFA6E2B82A27";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 27.10722613660208 71.855816344460109 166.95461001605946 ;
-	setAttr ".r" -type "double3" -24.938352728988207 367.39999999987702 2.0045421822463194e-16 ;
+	setAttr ".t" -type "double3" 4.0936398537938032 120.80613753324201 143.47287090141444 ;
+	setAttr ".r" -type "double3" -42.338352728989648 358.19999999986089 -2.9832420637451441e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A8599FDC-47C9-7A47-05FC-1EAF37AA1DD1";
 	setAttr -k off ".v" no;
