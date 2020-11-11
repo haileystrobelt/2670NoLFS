@@ -14,8 +14,10 @@
             <e p="AttachOnTrigger.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
             <e p="CharacterBehaviourWithKnockBack.cs" t="Include" />
+            <e p="CharacterBrain.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="CharacterMoveHV.cs" t="Include" />
+            <e p="CharacterMoveStates.cs" t="Include" />
             <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="EnemyConfig.cs" t="Include" />
