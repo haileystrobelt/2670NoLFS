@@ -2,7 +2,6 @@
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-
 public class CharacterBehaviour : MonoBehaviour
 {
     public float rotateSpeed = 120f, gravity = -9.81f, jumpForce = 10f;

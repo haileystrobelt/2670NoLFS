@@ -17,6 +17,7 @@
             <e p="CharacterBrain.cs" t="Include" />
             <e p="CharacterMouseLookAt.cs" t="Include" />
             <e p="CharacterMoveHV.cs" t="Include" />
+            <e p="CharacterMover.cs" t="Include" />
             <e p="CharacterMoveStates.cs" t="Include" />
             <e p="CharacterWithStates.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
