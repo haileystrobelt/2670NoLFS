@@ -1237,11 +1237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dccb96cb9384d14dbc56e6abee347f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 5
-  runSpeed: 10
+  walkSpeed: 10
+  runSpeed: 15
   gravity: -9.81
   jumpForce: 5
-  playerJumpCount: {fileID: 0}
+  playerJumpCount: {fileID: 11400000, guid: 80fb8944e5408f141b0d90d889fbc031, type: 2}
 --- !u!143 &2129167849
 CharacterController:
   m_ObjectHideFlags: 0

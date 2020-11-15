@@ -2,8 +2,8 @@
 
 public class CharacterMover : MonoBehaviour
 {
-    public float walkSpeed = 5f;
-    public float runSpeed = 10f;
+    public float walkSpeed = 10f;
+    public float runSpeed = 15f;
     private CharacterController control;
     
     private Vector3 movement;
@@ -34,7 +34,7 @@ public class CharacterMover : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         
         
-        Vector3 charMove = transform.forward * v + transform.right * h;
+        Vector3 charMove = -(transform.forward) * v + -(transform.right) * h;
         control.Move(charMove * speed * Time.deltaTime);
         
         
