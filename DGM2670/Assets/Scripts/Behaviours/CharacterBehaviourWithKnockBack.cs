@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+
 [RequireComponent(typeof(CharacterController))]
 public class CharacterBehaviourWithKnockBack : CharacterBehaviour
 {
@@ -23,7 +24,6 @@ public class CharacterBehaviourWithKnockBack : CharacterBehaviour
             body.AddForce(forces);
         }
         movement = Vector3.zero;
-        StartCoroutine(Move());
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
@@ -40,4 +40,6 @@ public class CharacterBehaviourWithKnockBack : CharacterBehaviour
         }
         StartCoroutine(KnockBack(hit, body));
     }
+    
+    
 }

@@ -18,28 +18,12 @@ public class CharacterBehaviour : MonoBehaviour
     protected float yVar;
     private int jumpCount;
 
-    private void OnEnable()
+    private void Start()
     {
         moveSpeed = normalSpeed;
         controller = GetComponent<CharacterController>();
-        StartCoroutine(Move());
+        
     }
-
-    private void OnDisable()
-    {
-        StopAllCoroutines();
-    }
-
-    protected IEnumerator Move()
-    {
-        canMove = true;
-        while (canMove)
-        {
-            OnMove();
-            yield return wffu;
-        }
-    }
-    
     protected virtual void OnHorizontal()
     {
         h = Input.GetAxis("Horizontal")*moveSpeed;
@@ -50,7 +34,7 @@ public class CharacterBehaviour : MonoBehaviour
         v = Input.GetAxis("Vertical")*moveSpeed;
     }
 
-    private void OnMove()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -61,13 +45,13 @@ public class CharacterBehaviour : MonoBehaviour
         {
             moveSpeed = normalSpeed;
         }
-        
+
         OnVertical();
         OnHorizontal();
 
-        movement.Set(0,yVar,0);
-        
-        yVar += gravity*Time.deltaTime;
+        movement.Set(0, yVar, 0);
+
+        yVar += gravity * Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)
         {
@@ -80,11 +64,12 @@ public class CharacterBehaviour : MonoBehaviour
             yVar = jumpForce;
             jumpCount++;
         }
-        
+
         Vector3 charMove = -(transform.forward) * v + -(transform.right) * h;
         controller.Move(charMove * Time.deltaTime);
-        
+
         movement = transform.TransformDirection(movement);
         controller.Move((movement) * Time.deltaTime);
+
     }
 }

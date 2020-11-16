@@ -12,6 +12,7 @@
             <e p="AIPatrol.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
             <e p="AttachOnTrigger.cs" t="Include" />
+            <e p="BulletBehaviour.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
             <e p="CharacterBehaviourWithKnockBack.cs" t="Include" />
             <e p="CharacterBrain.cs" t="Include" />
@@ -25,8 +26,11 @@
             <e p="GameActionHandler.cs" t="Include" />
             <e p="InstancerBehaviour.cs" t="Include" />
             <e p="InvokeBehaviour.cs" t="Include" />
+            <e p="LevelControl.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
+            <e p="ObjectPickUpBehaviour.cs" t="Include" />
+            <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPointBehaviour.cs" t="Include" />
