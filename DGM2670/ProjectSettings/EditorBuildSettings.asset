@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WitchGame/Rattlesnake Woods.unity
+    guid: db7f617b134b7ee4f980f4f508eda32e
+  - enabled: 1
+    path: Assets/Scenes/WitchGame/Town.unity
+    guid: d1239db3c3c99644586ac0b753f43182
+  - enabled: 1
+    path: Assets/Scenes/WitchGame/TunnelOfCrystals.unity
+    guid: 6633e797aaf26f34ebb92cb117c517e7
+  - enabled: 1
+    path: Assets/Scenes/WitchGame/GreatCliffs.unity
+    guid: 4c542132012d7dc43bedba31beb9b0d8
+  - enabled: 1
+    path: Assets/Scenes/WitchGame/WitchRoom.unity
+    guid: 6ebd93c3c5c4efc4bb0e0f4922af3443
   m_configObjects: {}

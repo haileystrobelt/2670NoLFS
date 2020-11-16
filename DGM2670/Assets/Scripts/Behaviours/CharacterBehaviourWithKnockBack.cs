@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterBehaviourWithKnockBack : CharacterBehaviour
 {
-    public float pushPower = 10.0f;
+    public float pushPower = 20.0f;
     private IEnumerator KnockBack (ControllerColliderHit hit, Rigidbody body)
     {
         canMove = false;

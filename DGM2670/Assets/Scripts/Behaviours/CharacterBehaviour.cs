@@ -5,15 +5,15 @@ using UnityEngine;
 public class CharacterBehaviour : MonoBehaviour
 {
     public float rotateSpeed = 120f, gravity = -9.81f, jumpForce = 10f;
-    public FloatData normalSpeed, fastSpeed;
+    public float normalSpeed = 15f, fastSpeed = 20f;
     public IntData playerJumpCount;
     
     protected CharacterController controller;
     protected Vector3 movement;
     protected bool canMove = true;
     protected readonly WaitForFixedUpdate wffu = new WaitForFixedUpdate();
-    protected float vInput, hInput;
-    protected FloatData moveSpeed;
+    protected float v, h;
+    protected float moveSpeed;
     
     protected float yVar;
     private int jumpCount;
@@ -42,14 +42,12 @@ public class CharacterBehaviour : MonoBehaviour
     
     protected virtual void OnHorizontal()
     {
-        //hInput = Input.GetAxis("Horizontal")*Time.deltaTime*rotateSpeed;
-        transform.Rotate(0,hInput,0);
+        h = Input.GetAxis("Horizontal")*moveSpeed;
     }
 
     protected virtual void OnVertical()
     {
-        vInput = Input.GetAxis("Horizontal")*moveSpeed.value;
-        movement.Set(vInput,yVar,0);
+        v = Input.GetAxis("Vertical")*moveSpeed;
     }
 
     private void OnMove()
@@ -67,6 +65,8 @@ public class CharacterBehaviour : MonoBehaviour
         OnVertical();
         OnHorizontal();
 
+        movement.Set(0,yVar,0);
+        
         yVar += gravity*Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)
@@ -80,6 +80,9 @@ public class CharacterBehaviour : MonoBehaviour
             yVar = jumpForce;
             jumpCount++;
         }
+        
+        Vector3 charMove = -(transform.forward) * v + -(transform.right) * h;
+        controller.Move(charMove * Time.deltaTime);
         
         movement = transform.TransformDirection(movement);
         controller.Move((movement) * Time.deltaTime);
