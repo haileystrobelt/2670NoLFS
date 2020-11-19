@@ -1508,8 +1508,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 120
-  gravity: -9.81
-  jumpForce: 10
+  gravity: -8.91
+  jumpForce: 7
   normalSpeed: 15
   fastSpeed: 20
   playerJumpCount: {fileID: 11400000, guid: 80fb8944e5408f141b0d90d889fbc031, type: 2}
