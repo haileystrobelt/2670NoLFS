@@ -29,6 +29,7 @@
             <e p="LevelControl.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
+            <e p="NavAgentBehaviour.cs" t="Include" />
             <e p="ObjectPickUpBehaviour.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
