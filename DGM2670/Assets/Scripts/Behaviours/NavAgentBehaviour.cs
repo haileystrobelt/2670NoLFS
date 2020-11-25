@@ -12,20 +12,21 @@ public class NavAgentBehaviour : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         destination = transform;
         getTransformAction.transformAction += HandleTransform;
-        callForTransformAction.action?.Invoke();
+        callForTransformAction.action?.Invoke(); //check for null
     }
 
-    private void HandleTransform(Transform obj)
+    
+    private void HandleTransform(Transform obj) //This will allow us to make a Unity Action call and tell all AI to go to player (or any destination) on start.
     {
         destination = obj;
     }
     
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //When the AI triggers into the player's trigger zone, it will follow player.
     {
         destination = other.transform;
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other) //Upon leaving trigger zone, AI will remain in same place and stop chasing.
     {
         destination = transform;
     }
