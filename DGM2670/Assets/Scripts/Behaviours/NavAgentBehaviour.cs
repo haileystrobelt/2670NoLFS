@@ -12,11 +12,11 @@ public class NavAgentBehaviour : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         destination = transform;
         getTransformAction.transformAction += HandleTransform;
-        callForTransformAction.action?.Invoke(); //check for null
+        callForTransformAction.action?.Invoke(); //sending out a call
     }
 
     
-    private void HandleTransform(Transform obj) //This will allow us to make a Unity Action call and tell all AI to go to player (or any destination) on start.
+    private void HandleTransform(Transform obj) //This will allow us to make a Unity Action call and tell all AI to go to player (or any destination). You can do this any time if you put the MonoEvents script onto the player: ie. on Start.
     {
         destination = obj;
     }
