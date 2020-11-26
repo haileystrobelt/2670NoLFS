@@ -104,6 +104,7 @@
             <e p="SpawnPointBehaviour.cs" t="Include" />
             <e p="TriggerEventsBehaviour.cs" t="Include" />
             <e p="TurretBehaviour.cs" t="Include" />
+            <e p="WizardBrain.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="CharacterBrain.cs" t="Include" />
