@@ -5,7 +5,7 @@ public class LevelControl : MonoBehaviour
 {
     public int index;
     public Vector3Data levelEntry;
-    public GameObject player;
+    public Transform player;
     
     
     private void OnTriggerEnter(Collider other)
@@ -14,7 +14,7 @@ public class LevelControl : MonoBehaviour
         {
             
             SceneManager.LoadScene(index);
-            player.transform.position = levelEntry.value;
+            player.position = levelEntry.value;
             
         }
         DontDestroyOnLoad(player);
