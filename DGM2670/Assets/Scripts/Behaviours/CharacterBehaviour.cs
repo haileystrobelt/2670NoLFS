@@ -4,9 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterBehaviour : MonoBehaviour
 {
-    public float rotateSpeed = 120f, gravity = -9.81f, jumpForce = 10f;
-    public float normalSpeed = 15f, fastSpeed = 20f;
-    public IntData playerJumpCount;
+    public float rotateSpeed = 120f, gravity = -40f, jumpForce = 30f;
+    public float normalSpeed = 15f, fastSpeed = 20f, playerJumpCount = 2f;
     
     protected CharacterController controller;
     protected Vector3 movement;
@@ -59,7 +58,7 @@ public class CharacterBehaviour : MonoBehaviour
             jumpCount = 0;
         }
 
-        if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
+        if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount)
         {
             yVar = jumpForce;
             jumpCount++;
@@ -70,6 +69,10 @@ public class CharacterBehaviour : MonoBehaviour
 
         movement = transform.TransformDirection(movement);
         controller.Move((movement) * Time.deltaTime);
+        
+        var pushPower = 2.0;
+        var weight = 6.0;
+        
 
     }
 }

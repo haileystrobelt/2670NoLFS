@@ -20,12 +20,15 @@ public class ObjectPickUpBehaviour : MonoBehaviour
         if (canPickUp)
         {
             transform.parent = other.transform;
+            rBody.useGravity = false;
             rBody.Sleep();
         }
         else
         {
             transform.parent = null;
+            rBody.useGravity = true;
             rBody.WakeUp();
         }
+        
     }
 }

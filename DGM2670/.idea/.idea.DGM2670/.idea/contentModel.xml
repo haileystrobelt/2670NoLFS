@@ -100,8 +100,10 @@
             <e p="ObjectPickUpBehaviour.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
+            <e p="PortalTeleporter.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="SpawnPointBehaviour.cs" t="Include" />
+            <e p="Teleport.cs" t="Include" />
             <e p="TriggerEventsBehaviour.cs" t="Include" />
             <e p="TurretBehaviour.cs" t="Include" />
             <e p="WizardBrain.cs" t="Include" />
