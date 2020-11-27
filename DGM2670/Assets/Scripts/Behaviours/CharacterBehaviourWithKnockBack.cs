@@ -17,7 +17,7 @@ public class CharacterBehaviourWithKnockBack : CharacterBehaviour
         {
             yield return wffu;
             i -= 0.1f;
-            controller.Move((movement) * Time.deltaTime);
+            //controller.Move((movement) * Time.deltaTime);
             
             var pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
             var forces = pushDir * pushPower;

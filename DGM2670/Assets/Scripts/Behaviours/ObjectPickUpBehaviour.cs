@@ -10,14 +10,9 @@ public class ObjectPickUpBehaviour : MonoBehaviour
         rBody = GetComponent<Rigidbody>();
     }
 
-    void Update()
-    {
-        canPickUp = Input.GetKey(KeyCode.E);
-    }
-
     private void OnTriggerStay(Collider other)
     {
-        if (canPickUp)
+        if (Input.GetKey(KeyCode.E) && other.CompareTag("Face"))
         {
             transform.parent = other.transform;
             rBody.useGravity = false;

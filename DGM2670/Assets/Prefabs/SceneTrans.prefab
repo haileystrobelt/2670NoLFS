@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3496378481360308986}
   - component: {fileID: 3349492716148657166}
-  - component: {fileID: 572744200542885218}
   - component: {fileID: -7040841884962458186}
+  - component: {fileID: 2060894040014946360}
   m_Layer: 0
   m_Name: SceneTrans
   m_TagString: Untagged
@@ -74,19 +74,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &572744200542885218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8823021532727858297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e218fd5785125984c8d79c86c4e29e0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 1
 --- !u!65 &-7040841884962458186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100,3 +87,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.7339916, z: 1}
   m_Center: {x: 0, y: 2.3669958, z: 0}
+--- !u!114 &2060894040014946360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823021532727858297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a61e022894193d4cb563ff26c948b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleportTarget: {fileID: 0}
+  player: {fileID: 2793438075369755602, guid: 2ab6522c4927ee645adffa41b96139fc, type: 3}
