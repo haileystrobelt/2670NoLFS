@@ -6,8 +6,8 @@ public class CharacterBehaviour : MonoBehaviour
     //Initialize vars
     public float rotateSpeed = 120f, gravity = -40f, jumpForce = 15f;
     public float normalSpeed = 35f, fastSpeed = 40f, playerJumpCount = 2f;
-    
-    protected CharacterController controller;
+
+    public static CharacterController controller;
     protected Vector3 movement;
     protected bool canMove = true;
     protected readonly WaitForFixedUpdate wffu = new WaitForFixedUpdate();

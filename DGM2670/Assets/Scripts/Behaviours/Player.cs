@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
+    private GameObject spawnPoint;
+    
     public HealthBar healthBar;
     
     void Start()
@@ -33,15 +35,23 @@ public class Player : MonoBehaviour
         
         if (currentHealth <= 0)
         {
+            //player death
             currentLives -= 1;
             currentHealth = 100;
-            //player death
+            
             //player respawn
+            
+            spawnPoint = Checkpoint.checkPoint;
+            transform.position = spawnPoint.transform.position;
+            
+            
+            
         }
 
         if (currentLives <= 0)
         {
             currentLives = 0;
+            
             //game over
         }
     }
