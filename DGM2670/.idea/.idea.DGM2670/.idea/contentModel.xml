@@ -79,6 +79,7 @@
             <e p="AnimStates.cs" t="Include" />
             <e p="AnimtionBehaviour.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
+            <e p="ArmMovement.cs" t="Include" />
             <e p="AttachOnTrigger.cs" t="Include" />
             <e p="BulletBehaviour.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
@@ -93,6 +94,8 @@
             <e p="Coroutines.cs" t="Include" />
             <e p="EnemyConfig.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
+            <e p="HealthTextDisplay.cs" t="Include" />
             <e p="InstancerBehaviour.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="InvokeBehaviour.cs" t="Include" />
@@ -103,6 +106,7 @@
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="NavAgentBehaviour.cs" t="Include" />
             <e p="ObjectPickUpBehaviour.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
             <e p="PlayerAttack.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />

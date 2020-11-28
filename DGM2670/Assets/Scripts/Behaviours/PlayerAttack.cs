@@ -1,20 +1,18 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public GameObject armPivot;
-    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        var transformRotation = armPivot.transform.rotation;
         
-        if (Input.GetKey(KeyCode.H))
-        {
-            transformRotation.x = -90;
-        }
-        else
-        {
-            transformRotation.x = 0;
-        }
     }
 }

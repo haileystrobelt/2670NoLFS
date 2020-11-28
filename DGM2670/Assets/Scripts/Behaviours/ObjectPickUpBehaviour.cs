@@ -5,6 +5,7 @@ public class ObjectPickUpBehaviour : MonoBehaviour
 {
     private Rigidbody rBody;
     private bool canPickUp;
+    
     void Start()
     {
         rBody = GetComponent<Rigidbody>();

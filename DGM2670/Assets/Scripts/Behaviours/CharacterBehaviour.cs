@@ -82,8 +82,8 @@ public class CharacterBehaviour : MonoBehaviour
         {
             //Turning
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothTime, turnSmoothVelocity); //smooth turn
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothTime, turnSmoothVelocity); //smooth turn
+            transform.rotation = Quaternion.Euler(0f, targetAngle, 0f);
             
             //Moving
             controller.Move(direction * (moveSpeed * Time.deltaTime));
