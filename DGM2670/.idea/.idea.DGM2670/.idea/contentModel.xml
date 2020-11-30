@@ -107,7 +107,6 @@
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="NavAgentBehaviour.cs" t="Include" />
             <e p="ObjectPickUpBehaviour.cs" t="Include" />
-            <e p="Player.cs" t="Include" />
             <e p="PlayerAttack.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
@@ -128,6 +127,12 @@
             <e p="IntData.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
+          </e>
+          <e p="Stats" t="Include">
+            <e p="Equiment.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerStats.cs" t="Include" />
+            <e p="Stat.cs" t="Include" />
           </e>
           <e p="Unused" t="Include">
             <e p="AddScore.cs" t="Include" />

@@ -8,8 +8,10 @@ public class Player : MonoBehaviour
     public int currentHealth;
 
     private GameObject spawnPoint;
-    
     public HealthBar healthBar;
+
+    public Stat damage;
+    public Stat armor;
     
     void Start()
     {
@@ -27,25 +29,32 @@ public class Player : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
+        damage -= armor.GetValue();
+
         currentHealth -= damage;
-        
-        healthBar.SetHealth(currentHealth);
-        
+        healthBar.SetHealth(currentHealth); //update healthbar
+
+
         if (currentHealth <= 0)
         {
-            //player death
-            currentLives -= 1;
-            currentHealth = 100;
-            healthBar.SetHealth(currentHealth);
-            //player respawn
-            
-            spawnPoint = Checkpoint.checkPoint;
-            transform.position = spawnPoint.transform.position;
-            
+            Die();
         }
+    }
 
+    public virtual void Die()
+    {
+        //player death
+        currentLives -= 1;
+        currentHealth = 100;
+        healthBar.SetHealth(currentHealth);
+        
+        //player respawn
+        spawnPoint = Checkpoint.checkPoint;
+        transform.position = spawnPoint.transform.position;
+        
+        //reset death
         if (currentLives <= 0)
         {
             currentLives = 0;
@@ -53,6 +62,5 @@ public class Player : MonoBehaviour
             //game over
         }
     }
-
     
 }

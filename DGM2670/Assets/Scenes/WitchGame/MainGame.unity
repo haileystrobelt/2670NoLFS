@@ -2414,7 +2414,7 @@ RectTransform:
   m_GameObject: {fileID: 550468380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30172, y: 0.30172, z: 0.30172}
+  m_LocalScale: {x: 0.8881878, y: 0.31780168, z: 0.30172}
   m_Children:
   - {fileID: 1397581354}
   m_Father: {fileID: 1762989645}
@@ -2422,7 +2422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.1, y: 0}
+  m_AnchoredPosition: {x: -295, y: -0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550468382
@@ -3750,7 +3750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -252, y: -24}
+  m_AnchoredPosition: {x: -788, y: -24}
   m_SizeDelta: {x: 54.04342, y: 34.600647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &892066197
@@ -5951,7 +5951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460321333
@@ -6866,7 +6866,7 @@ RectTransform:
   m_GameObject: {fileID: 1762989644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4688271, y: 1.1944, z: 1}
   m_Children:
   - {fileID: 1460321332}
   - {fileID: 550468381}
@@ -6875,7 +6875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 29.68, y: 179.22}
+  m_AnchoredPosition: {x: 266, y: 184}
   m_SizeDelta: {x: -253.90616, y: -384.9981}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1762989646
@@ -6923,7 +6923,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 100
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
