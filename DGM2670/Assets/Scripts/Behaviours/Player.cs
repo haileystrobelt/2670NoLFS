@@ -38,13 +38,11 @@ public class Player : MonoBehaviour
             //player death
             currentLives -= 1;
             currentHealth = 100;
-            
+            healthBar.SetHealth(currentHealth);
             //player respawn
             
             spawnPoint = Checkpoint.checkPoint;
             transform.position = spawnPoint.transform.position;
-            
-            
             
         }
 

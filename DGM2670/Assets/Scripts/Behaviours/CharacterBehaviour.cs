@@ -4,7 +4,7 @@
 public class CharacterBehaviour : MonoBehaviour
 {
     //Initialize vars
-    public float rotateSpeed = 120f, gravity = -40f, jumpForce = 15f;
+    public float rotateSpeed = 120f, gravity = -40f, jumpForce = 30f;
     public float normalSpeed = 35f, fastSpeed = 40f, playerJumpCount = 2f;
 
     public static CharacterController controller;
@@ -72,6 +72,13 @@ public class CharacterBehaviour : MonoBehaviour
             yVar = jumpForce;
             jumpCount++;
         }
+        
+        if (Input.GetKey(KeyCode.J) && jumpCount < playerJumpCount)
+        {
+            yVar = 30f;
+            gravity = -100f;
+        }
+        
 
         
         //Movement
