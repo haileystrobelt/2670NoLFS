@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
     public static int currentLives;
     public int maxLives = 5;
     public int maxHealth = 100;
-    public int currentHealth;
+    public static int currentHealth;
 
     private GameObject spawnPoint;
     public HealthBar healthBar;

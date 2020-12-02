@@ -4,7 +4,7 @@
 public class CharacterBehaviour : MonoBehaviour
 {
     //Initialize vars
-    public float rotateSpeed = 120f, gravity = -40f, jumpForce = 30f;
+    public float rotateSpeed = 120f, gravity = -40f, jumpForce = 20f;
     public float normalSpeed = 35f, fastSpeed = 40f, playerJumpCount = 2f;
 
     public static CharacterController controller;
