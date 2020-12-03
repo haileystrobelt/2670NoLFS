@@ -8,7 +8,7 @@ public class ItemPickUp : MonoBehaviour
     {
         if (other.CompareTag("Player") && Input.GetKey(KeyCode.C))
         {
-            bool wasPickedUp = Inventory.instance.Add(item);
+            bool wasPickedUp = Inventory.Add(item);
             
             if (wasPickedUp)
             {

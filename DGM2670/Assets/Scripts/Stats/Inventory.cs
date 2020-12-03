@@ -20,11 +20,11 @@ public class Inventory : MonoBehaviour
     
     #endregion
 
-    public int space = 20;
+    public static int space = 20;
     
-    public List<Item> items = new  List<Item>();
+    public static List<Item> items = new  List<Item>();
 
-    public bool Add(Item item)
+    public static bool Add(Item item)
     {
         if (!item.isDefaultItem)
         {

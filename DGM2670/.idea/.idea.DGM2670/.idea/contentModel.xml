@@ -129,6 +129,9 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Stats" t="Include">
+            <e p="CharacterCombat.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyStats.cs" t="Include" />
             <e p="Equipment.cs" t="Include" />
             <e p="EquipmentManager.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
@@ -136,6 +139,7 @@
             <e p="Item.cs" t="Include" />
             <e p="ItemPickUp.cs" t="Include" />
             <e p="Player.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
             <e p="Stat.cs" t="Include" />
           </e>

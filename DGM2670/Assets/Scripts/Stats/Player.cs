@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         damage -= armor.GetValue();
+        damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth); //update healthbar
