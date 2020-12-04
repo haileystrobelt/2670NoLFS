@@ -6,7 +6,27 @@
     <e p="C:\Users\haile\Documents\School\Fall 2020\Scripting\2670NoLFS\DGM2670" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Allegorithmic" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="engine_build_info.txt" t="Include" />
+            <e p="EULA.txt" t="Include" />
+            <e p="Substance.EditorHelper" t="Include">
+              <e p="Scripter.cs" t="Include" />
+              <e p="Substance.EditorHelper.asmdef" t="Include" />
+            </e>
+            <e p="Substance.Platform" t="Include">
+              <e p="NativeFunctions.cs" t="Include" />
+              <e p="Substance.Platform.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Items" t="Include">
+          <e p="Consumable.cs" t="Include" />
+        </e>
         <e p="Lava.cs" t="Include" />
+        <e p="Lighting" t="Include">
+          <e p="SubstanceTest.cs" t="Include" />
+        </e>
         <e p="NavMeshComponents-master" t="Include">
           <e p="Assets" t="Include">
             <e p="Examples" t="Include">
@@ -118,6 +138,15 @@
             <e p="TurretBehaviour.cs" t="Include" />
             <e p="WizardBrain.cs" t="Include" />
           </e>
+          <e p="Game" t="Include">
+            <e p="Cauldron.cs" t="Include" />
+            <e p="Crystal.cs" t="Include" />
+            <e p="CursePoision.cs" t="Include" />
+            <e p="EnvironDamage.cs" t="Include" />
+            <e p="Gem.cs" t="Include" />
+            <e p="RattleBridge.cs" t="Include" />
+            <e p="WitchKiller.cs" t="Include" />
+          </e>
           <e p="ScriptableObjects" t="Include">
             <e p="CharacterBrain.cs" t="Include" />
             <e p="CharacterStateMachineData.cs" t="Include" />
@@ -162,6 +191,8 @@
       <e p="NavMeshComponentsTestsPlaymode.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Substance.EditorHelper.csproj" t="IncludeRecursive" />
+      <e p="Substance.Platform.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>

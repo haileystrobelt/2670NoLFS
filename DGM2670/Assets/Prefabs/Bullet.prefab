@@ -140,5 +140,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletForce: 500
   lifeTime: 4
-  moveDirection: {fileID: 11400000, guid: 6be0b13e53c598c478a9418f0972760e, type: 2}
-  target: {fileID: 3669693809668556442, guid: c5d86b13ece7fa649b326f6462a3e4c9, type: 3}
+  target: {fileID: 707295628416737636, guid: 44add975ff2c82b4dbfb5f625434e014, type: 3}

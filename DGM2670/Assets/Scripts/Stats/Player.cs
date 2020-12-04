@@ -4,9 +4,8 @@ public class Player : MonoBehaviour
 {
     public static int currentLives;
     public int maxLives = 5;
-    public int maxHealth = 100;
+    public IntData maxHealth;
     public static int currentHealth;
-
     private GameObject spawnPoint;
     public HealthBar healthBar;
 
@@ -15,9 +14,10 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-        currentHealth = maxHealth;
+        maxHealth.value = 100;
+        currentHealth = maxHealth.value;
         currentLives = maxLives;
-        healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetMaxHealth(maxHealth.value);
     }
 
     
@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
             Die();
         }
     }
+    
 
     public virtual void Die()
     {

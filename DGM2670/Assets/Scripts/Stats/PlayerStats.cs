@@ -22,6 +22,10 @@ public class PlayerStats : Player
         }
     }
 
+    public void Heal(int healthGain)
+    {
+        
+    }
 }
 
 
