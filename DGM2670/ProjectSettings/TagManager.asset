@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Face
   - Boulder
+  - Enemy
   layers:
   - Default
   - TransparentFX

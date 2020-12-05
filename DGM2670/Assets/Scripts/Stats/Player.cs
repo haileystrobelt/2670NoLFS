@@ -4,8 +4,8 @@ public class Player : MonoBehaviour
 {
     public static int currentLives;
     public int maxLives = 5;
-    public IntData maxHealth;
-    public static int currentHealth;
+    public int maxHealth = 100;
+    public IntData playerHealth;
     private GameObject spawnPoint;
     public HealthBar healthBar;
 
@@ -14,10 +14,9 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-        maxHealth.value = 100;
-        currentHealth = maxHealth.value;
+        playerHealth.value = maxHealth;
         currentLives = maxLives;
-        healthBar.SetMaxHealth(maxHealth.value);
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     
@@ -27,6 +26,11 @@ public class Player : MonoBehaviour
         {
             TakeDamage(20);
         }
+        
+        if (playerHealth.value <= 0)
+        {
+            Die();
+        }
     }
 
     public void TakeDamage(int damage)
@@ -34,14 +38,9 @@ public class Player : MonoBehaviour
         damage -= armor.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth); //update healthbar
-
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
+        playerHealth.value -= damage;
+        healthBar.SetHealth(playerHealth.value); //update healthbar
+        
     }
     
 
@@ -49,8 +48,8 @@ public class Player : MonoBehaviour
     {
         //player death
         currentLives -= 1;
-        currentHealth = 100;
-        healthBar.SetHealth(currentHealth);
+        playerHealth.value = 100;
+        healthBar.SetHealth(playerHealth.value);
         
         //player respawn
         spawnPoint = Checkpoint.checkPoint;

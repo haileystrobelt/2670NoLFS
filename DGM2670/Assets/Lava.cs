@@ -6,9 +6,15 @@ public class Lava : MonoBehaviour
     public IntData playerHealth;
     public HealthBar healthBar;
     
-    private void OnTriggerEnter(Collider other)
+
+    public int lavaDamage = 15;
+
+    private float timer = 0;
+    private float damageTime = 1;
+
+    
+    private void OnTriggerStay(Collider other)
     {
-        
         if (other.CompareTag("Boulder"))
         {
             other.gameObject.SetActive(false);
@@ -16,8 +22,24 @@ public class Lava : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            playerHealth.value -= 20;
-            healthBar.SetHealth(playerHealth.value);
+            if (timer >= damageTime)
+            {
+                timer -= damageTime;
+                playerHealth.value -= lavaDamage;
+                healthBar.SetHealth(playerHealth.value);
+                
+            }
+
+            timer += Time.deltaTime;
+
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            timer = 0;
         }
     }
 }

@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public void Interact()
     {
         CharacterCombat playerCombat = playerManager.player.GetComponent<CharacterCombat>();
+        
         if (playerCombat != null)
         {
             playerCombat.Attack(myStats);

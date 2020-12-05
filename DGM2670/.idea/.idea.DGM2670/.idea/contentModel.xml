@@ -20,6 +20,7 @@
             </e>
           </e>
         </e>
+        <e p="CaulronReset.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Consumable.cs" t="Include" />
         </e>
@@ -128,7 +129,6 @@
             <e p="NavAgentBehaviour.cs" t="Include" />
             <e p="ObjectPickUpBehaviour.cs" t="Include" />
             <e p="PlayerAttack.cs" t="Include" />
-            <e p="PlayerShooting.cs" t="Include" />
             <e p="PointFromMouse.cs" t="Include" />
             <e p="PortalTeleporter.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
@@ -136,6 +136,7 @@
             <e p="Teleport.cs" t="Include" />
             <e p="TriggerEventsBehaviour.cs" t="Include" />
             <e p="TurretBehaviour.cs" t="Include" />
+            <e p="WitchShooting.cs" t="Include" />
             <e p="WizardBrain.cs" t="Include" />
           </e>
           <e p="Game" t="Include">
@@ -160,6 +161,7 @@
           <e p="Stats" t="Include">
             <e p="CharacterCombat.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
+            <e p="EnemyBehaviour.cs" t="Include" />
             <e p="EnemyStats.cs" t="Include" />
             <e p="Equipment.cs" t="Include" />
             <e p="EquipmentManager.cs" t="Include" />

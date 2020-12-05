@@ -1,18 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject player;
+    
+    
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("Enemy") && Input.GetKey(KeyCode.H))
+        {
+            
+        }
     }
 }
