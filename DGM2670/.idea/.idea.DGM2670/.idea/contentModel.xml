@@ -21,6 +21,7 @@
           </e>
         </e>
         <e p="CaulronReset.cs" t="Include" />
+        <e p="EnemyAttack.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Consumable.cs" t="Include" />
         </e>

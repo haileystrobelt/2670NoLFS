@@ -2,14 +2,16 @@
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public int enemyHealth = 50;
+    public int maxHealth = 50;
+    public IntData enemyHealth;
+    private GameObject spawnPoint;
+    public HealthBar enemyHealthBar;
     
-    private void OnTriggerEnter(Collider other)
+    void Start()
     {
-        if (other.CompareTag("Player") && Input.GetKey(KeyCode.H))
-        {
-            enemyHealth -= 10;
-        }
+        enemyHealth.value = maxHealth;
+        enemyHealthBar.SetMaxHealth(maxHealth);
     }
+
 }
 

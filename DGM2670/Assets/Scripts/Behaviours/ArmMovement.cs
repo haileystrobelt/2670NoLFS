@@ -3,6 +3,8 @@
 [RequireComponent(typeof(Animator))]
 public class ArmMovement : MonoBehaviour
 {
+    
+    
     private Animator anim;
     void Start()
     {
