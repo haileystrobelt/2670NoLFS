@@ -2,20 +2,21 @@
 
 public class RattleBridge : MonoBehaviour
 {
-    private int holeCounter = 0;
+    public IntData holeCounter;
     public GameObject bridge;
 
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        holeCounter += 1;
-        if (holeCounter >= 6)
+        bridge.SetActive(false);
+        holeCounter.value = 0;
+    }
+
+    void Update()
+    {
+        if (holeCounter.value >= 6)
         {
             bridge.SetActive(true);
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        holeCounter -= 1;
-    }
 }

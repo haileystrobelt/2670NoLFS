@@ -20,12 +20,9 @@
             </e>
           </e>
         </e>
-        <e p="CaulronReset.cs" t="Include" />
-        <e p="EnemyAttack.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Consumable.cs" t="Include" />
         </e>
-        <e p="Lava.cs" t="Include" />
         <e p="Lighting" t="Include">
           <e p="SubstanceTest.cs" t="Include" />
         </e>
@@ -141,12 +138,21 @@
             <e p="WizardBrain.cs" t="Include" />
           </e>
           <e p="Game" t="Include">
+            <e p="AutoRespawn.cs" t="Include" />
+            <e p="BridgeTrigger.cs" t="Include" />
             <e p="Cauldron.cs" t="Include" />
+            <e p="CaulronReset.cs" t="Include" />
             <e p="Crystal.cs" t="Include" />
             <e p="CursePoision.cs" t="Include" />
+            <e p="DeathFall.cs" t="Include" />
+            <e p="diamond.cs" t="Include" />
+            <e p="EnemyAttack.cs" t="Include" />
             <e p="EnvironDamage.cs" t="Include" />
             <e p="Gem.cs" t="Include" />
+            <e p="Lava.cs" t="Include" />
             <e p="RattleBridge.cs" t="Include" />
+            <e p="spiderAI.cs" t="Include" />
+            <e p="WitchBehaviour.cs" t="Include" />
             <e p="WitchKiller.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">

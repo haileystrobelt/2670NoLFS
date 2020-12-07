@@ -7,6 +7,9 @@ TagManager:
   - Face
   - Boulder
   - Enemy
+  - Bullet
+  - Cauldron
+  - Attack
   layers:
   - Default
   - TransparentFX

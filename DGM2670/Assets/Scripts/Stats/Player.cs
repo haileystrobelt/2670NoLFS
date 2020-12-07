@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public Stat damage;
     public Stat armor;
     
+    
     void Start()
     {
         playerHealth.value = maxHealth;
@@ -63,5 +64,12 @@ public class Player : MonoBehaviour
             //game over
         }
     }
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            healthBar.SetHealth(playerHealth.value);
+        }
+    }
 }

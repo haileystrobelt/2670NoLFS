@@ -11,7 +11,7 @@ public class WitchShooting : MonoBehaviour
     
     private void Start()
     {
-        fireRate = 1f;
+        fireRate = .5f;
         nextFire = Time.time;
     }
 
@@ -22,9 +22,10 @@ public class WitchShooting : MonoBehaviour
         {
             Instantiate(bullet, transform.position, transform.rotation);
             nextFire = Time.time + fireRate;
-            
         }
     }
+    
+    
 
     private void LookAt()
     {

@@ -20,18 +20,22 @@ public class AIBehaviour : MonoBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        canHunt = true;
-        canPatrol = false;
-        agent.destination = player.position;
-        var distance = agent.remainingDistance;
-        while (distance <= 0.25f)
+        if (gameObject != null)
         {
-            distance = agent.remainingDistance;
-            yield return wffu;
-        }
-        yield return new WaitForSeconds(2f);
+            canHunt = true;
+            canPatrol = false;
+            agent.destination = player.position;
+            var distance = agent.remainingDistance;
+            while (distance <= 0.25f)
+            {
+                distance = agent.remainingDistance;
+                yield return wffu;
+            }
+            yield return new WaitForSeconds(2f);
 
-        StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
+            StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
+        }
+        
     }
     private void OnTriggerExit(Collider other)
     {
@@ -42,7 +46,10 @@ public class AIBehaviour : MonoBehaviour
     private int i = 0;
     private IEnumerator Patrol()
     {
-        canPatrol = true;
+        if (gameObject != null)
+        {
+            canPatrol = true;
+        }
         while (canPatrol)
         {
             yield return wffu;

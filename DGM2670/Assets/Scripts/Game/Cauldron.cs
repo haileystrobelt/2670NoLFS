@@ -3,10 +3,10 @@
 public class Cauldron : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Witch"))
+    { 
+        if (other.CompareTag("Bullet"))
         {
-            Destroy(gameObject);
+            Destroy(other.gameObject); //Destroy Bullets on hit
         }
     }
 }

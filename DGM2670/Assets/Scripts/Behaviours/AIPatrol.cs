@@ -7,7 +7,7 @@ public class AIPatrol : MonoBehaviour
 {
     private NavMeshAgent agent;
     public List<Transform> patrolPoints;
-    
+
     private void Start()
     {
         i = 0;
@@ -15,10 +15,16 @@ public class AIPatrol : MonoBehaviour
     }
 
     private int i = 0;
+    
+    
     private void Update()
     {
+        agent.speed = (float) 3.5;
+        agent.isStopped = false;
         if (agent.pathPending || !(agent.remainingDistance < 0.5f)) return;
         agent.destination = patrolPoints[i].position;
         i = (i + 1) % patrolPoints.Count;
     }
+
+
 }
