@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class diamond : MonoBehaviour
 {
@@ -14,13 +13,17 @@ public class diamond : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        diamondCount += 1;
-
-        if (diamondCount >= 3)
+        if (other.CompareTag("Diamond"))
         {
-            gate.SetActive(false);
-            sceneTransition.SetActive(true);
+            Destroy(other.gameObject);
+            diamondCount += 1;
+
+            if (diamondCount >= 3)
+            {
+                gate.SetActive(false);
+                sceneTransition.SetActive(true);
+            }
         }
+        
     }
 }

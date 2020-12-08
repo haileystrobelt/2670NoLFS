@@ -24,6 +24,15 @@ public class AIPatrol : MonoBehaviour
         if (agent.pathPending || !(agent.remainingDistance < 0.5f)) return;
         agent.destination = patrolPoints[i].position;
         i = (i + 1) % patrolPoints.Count;
+        
+        
+        if (!agent.hasPath && agent.pathStatus == NavMeshPathStatus.PathComplete) {
+            Debug.Log("Character stuck");
+            agent.enabled = false;
+            agent.enabled = true;
+            Debug.Log("navmesh re enabled");
+            // navmesh agent will start moving again
+        }
     }
 
 

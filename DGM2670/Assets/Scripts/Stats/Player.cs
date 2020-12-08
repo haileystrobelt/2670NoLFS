@@ -3,7 +3,7 @@
 public class Player : MonoBehaviour
 {
     public static int currentLives;
-    public int maxLives = 5;
+    public static int maxLives = 5;
     public int maxHealth = 100;
     public IntData playerHealth;
     private GameObject spawnPoint;
@@ -23,11 +23,6 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            TakeDamage(20);
-        }
-        
         if (playerHealth.value <= 0)
         {
             Die();
@@ -65,11 +60,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public virtual void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Bullet"))
         {
             healthBar.SetHealth(playerHealth.value);
+        }
+
+        if (other.CompareTag("Fall"))
+        {
+            Die();
         }
     }
 }
