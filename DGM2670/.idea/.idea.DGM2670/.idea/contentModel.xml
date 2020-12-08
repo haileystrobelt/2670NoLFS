@@ -145,6 +145,11 @@
             <e p="Crystal.cs" t="Include" />
             <e p="CursePoision.cs" t="Include" />
             <e p="DeathFall.cs" t="Include" />
+            <e p="Dialogue" t="Include">
+              <e p="Dialogue.cs" t="Include" />
+              <e p="DialogueManager.cs" t="Include" />
+              <e p="DialogueTrigger.cs" t="Include" />
+            </e>
             <e p="diamond.cs" t="Include" />
             <e p="EnemyAttack.cs" t="Include" />
             <e p="EnvironDamage.cs" t="Include" />
@@ -152,6 +157,22 @@
             <e p="Lava.cs" t="Include" />
             <e p="RattleBridge.cs" t="Include" />
             <e p="spiderAI.cs" t="Include" />
+            <e p="Stats" t="Include">
+              <e p="CharacterCombat.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemyBehaviour.cs" t="Include" />
+              <e p="EnemyStats.cs" t="Include" />
+              <e p="Equipment.cs" t="Include" />
+              <e p="EquipmentManager.cs" t="Include" />
+              <e p="Inventory.cs" t="Include" />
+              <e p="InventorySlot.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="ItemPickUp.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="PlayerManager.cs" t="Include" />
+              <e p="PlayerStats.cs" t="Include" />
+              <e p="Stat.cs" t="Include" />
+            </e>
             <e p="WitchBehaviour.cs" t="Include" />
             <e p="WitchKiller.cs" t="Include" />
           </e>
@@ -164,22 +185,6 @@
             <e p="IntData.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
-          </e>
-          <e p="Stats" t="Include">
-            <e p="CharacterCombat.cs" t="Include" />
-            <e p="Enemy.cs" t="Include" />
-            <e p="EnemyBehaviour.cs" t="Include" />
-            <e p="EnemyStats.cs" t="Include" />
-            <e p="Equipment.cs" t="Include" />
-            <e p="EquipmentManager.cs" t="Include" />
-            <e p="Inventory.cs" t="Include" />
-            <e p="InventorySlot.cs" t="Include" />
-            <e p="Item.cs" t="Include" />
-            <e p="ItemPickUp.cs" t="Include" />
-            <e p="Player.cs" t="Include" />
-            <e p="PlayerManager.cs" t="Include" />
-            <e p="PlayerStats.cs" t="Include" />
-            <e p="Stat.cs" t="Include" />
           </e>
           <e p="Unused" t="Include">
             <e p="AddScore.cs" t="Include" />
