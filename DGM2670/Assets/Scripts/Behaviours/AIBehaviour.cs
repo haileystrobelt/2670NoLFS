@@ -20,7 +20,7 @@ public class AIBehaviour : MonoBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
-        if (gameObject != null)
+        if (gameObject != null && other.CompareTag("Player"))
         {
             canHunt = true;
             canPatrol = false;

@@ -5,7 +5,7 @@ public class EnemyAttack : MonoBehaviour
     public IntData playerHealth;
     private float timer = 0f;
     private float damageTime = 1f;
-    private int enemyDamage = 15;
+    public int enemyDamage = 15;
     
     public HealthBar healthBar;
     private void OnTriggerStay(Collider other)
