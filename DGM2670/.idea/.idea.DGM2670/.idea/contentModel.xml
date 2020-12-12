@@ -20,6 +20,7 @@
             </e>
           </e>
         </e>
+        <e p="BoulderCollider.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Consumable.cs" t="Include" />
         </e>

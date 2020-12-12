@@ -15,16 +15,23 @@ public class ObjectPickUpBehaviour : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E) && other.CompareTag("Face"))
         {
-            transform.parent = other.transform;
+            transform.parent = other.transform; //make object a child of player's face
+            transform.localPosition = new Vector3(-2.21f, -2.99f, 0f);
+            //transform.localRotation = Quaternion.identity;
             rBody.useGravity = false;
-            rBody.Sleep();
+            rBody.isKinematic = true; //deactivate rbody
         }
         else
         {
             transform.parent = null;
             rBody.useGravity = true;
-            rBody.WakeUp();
+            
+
+            rBody.isKinematic = false; //activate rbody
         }
         
     }
 }
+
+//use layers 
+
