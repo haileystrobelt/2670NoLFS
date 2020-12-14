@@ -23,15 +23,17 @@ public class EnemyBehaviour : MonoBehaviour
 
             if (enemyHealth <= 0)
             {
-                Destroy(transform.parent.gameObject);
+                Destroy(transform.parent.gameObject); //destroy enemy
+                
+                //spawn 3 coins at enemy's position, each coin 2 units apart.
+                Vector3 pos = new Vector3(0f, 2f, 0f);
+                Vector3 pos2 = new Vector3(0f, 4f, 0f);
+                
+                
                 Instantiate(coin, transform.position, Quaternion.identity);
-                Instantiate(coin, new Vector3(1, 0, 0), Quaternion.identity);
-                Instantiate(coin, new Vector3(-1, 0, 0), Quaternion.identity);
-                /*for (int i = 0; i < 3; i++)
-                {
-                    Instantiate(coin, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-                }
-                */
+                Instantiate(coin, transform.position + pos, Quaternion.identity);
+                Instantiate(coin, transform.position + pos2, Quaternion.identity);
+                
             }
         }
             

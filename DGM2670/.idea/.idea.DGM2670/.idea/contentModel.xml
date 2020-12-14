@@ -21,6 +21,7 @@
           </e>
         </e>
         <e p="BoulderCollider.cs" t="Include" />
+        <e p="HealDesk.cs" t="Include" />
         <e p="Items" t="Include">
           <e p="Consumable.cs" t="Include" />
         </e>
@@ -145,7 +146,6 @@
             <e p="CaulronReset.cs" t="Include" />
             <e p="Crystal.cs" t="Include" />
             <e p="CursePoision.cs" t="Include" />
-            <e p="DeathFall.cs" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="Dialogue.cs" t="Include" />
               <e p="DialogueManager.cs" t="Include" />
@@ -196,6 +196,7 @@
             <e p="Score.cs" t="Include" />
           </e>
         </e>
+        <e p="snakeAttack.cs" t="Include" />
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />

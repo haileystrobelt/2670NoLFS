@@ -12,6 +12,7 @@ TagManager:
   - Attack
   - Diamond
   - Fall
+  - BoulderTrigger
   layers:
   - Default
   - TransparentFX
@@ -42,7 +43,7 @@ TagManager:
   - 
   - Face
   - Boulder
-  - 
+  - BoulderTrigger
   - 
   - 
   m_SortingLayers:

@@ -15,7 +15,7 @@ public class AutoRespawn : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && blockCount.value <= 7)
+        if (other.CompareTag("Player") && blockCount.value <= 20)
         {
             Instantiate(block, originalPos, Quaternion.identity);
             blockCount.value += 1;
