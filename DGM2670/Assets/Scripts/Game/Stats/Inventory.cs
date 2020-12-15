@@ -1,30 +1,35 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
-{
+public class Inventory : MonoBehaviour {
+
     #region Singleton
 
     public static Inventory instance;
 
-    private void Awake()
+    void Awake ()
     {
         if (instance != null)
         {
             Debug.LogWarning("More than one instance of Inventory found!");
             return;
         }
-        
+
         instance = this;
     }
-    
+
     #endregion
-
-    public static int space = 20;
     
-    public static List<Item> items = new  List<Item>();
+    public delegate void OnItemChanged();
+    public OnItemChanged onItemChangedCallback;
 
-    public static bool Add(Item item)
+    public int space = 15;
+    
+    public List<Item> items = new List<Item>();
+
+    //Adds a new item. Checks if there is enough room.
+    public bool Add (Item item)
     {
         if (!item.isDefaultItem)
         {
@@ -33,15 +38,23 @@ public class Inventory : MonoBehaviour
                 Debug.Log("Not enough room.");
                 return false;
             }
-            
+
             items.Add(item);
+
+            if (onItemChangedCallback != null)
+                onItemChangedCallback.Invoke();
         }
 
         return true;
     }
 
-    public void Remove(Item item)
+    
+    public void Remove (Item item)
     {
         items.Remove(item);
+        
+        if (onItemChangedCallback != null)
+            onItemChangedCallback.Invoke();
     }
+
 }
