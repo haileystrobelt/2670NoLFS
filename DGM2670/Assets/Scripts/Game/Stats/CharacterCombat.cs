@@ -13,7 +13,7 @@ public class CharacterCombat : MonoBehaviour
 
     public void Attack(Player targetStats)
     {
-        targetStats.TakeDamage(myStats.damage.GetValue());
+        //targetStats.TakeDamage(myStats.damage.GetValue());
     }
     
 }

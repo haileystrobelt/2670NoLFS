@@ -13,6 +13,9 @@ TagManager:
   - Diamond
   - Fall
   - BoulderTrigger
+  - Enemy1
+  - Enemy2
+  - Enemy3
   layers:
   - Default
   - TransparentFX

@@ -20,3 +20,6 @@ public class Equipment : Item
 }
 
 public enum EquipmentSlot {Head, Chest, Legs, Weapon, Shield, Feet}
+
+
+//brackey's tutorial

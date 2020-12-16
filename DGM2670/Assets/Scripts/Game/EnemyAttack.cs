@@ -7,20 +7,19 @@ public class EnemyAttack : MonoBehaviour
     private float damageTime = 1f;
     public int enemyDamage = 15;
     
-    public HealthBar healthBar;
+
+
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            timer += Time.deltaTime * 1.5f;
+            
             if (timer >= damageTime)
             {
                 timer -= damageTime;
                 playerHealth.value -= enemyDamage;
-                healthBar.SetHealth(playerHealth.value);
-                
             }
-
-            timer += Time.deltaTime;
 
         }
     }

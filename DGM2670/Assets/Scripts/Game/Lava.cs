@@ -4,7 +4,6 @@ public class Lava : MonoBehaviour
 {
     public GameObject boulder;
     public IntData playerHealth;
-    public HealthBar healthBar;
     
 
     public int lavaDamage = 15;
@@ -28,11 +27,10 @@ public class Lava : MonoBehaviour
             {
                 timer -= damageTime;
                 playerHealth.value -= lavaDamage;
-                healthBar.SetHealth(playerHealth.value);
                 
             }
 
-            timer += Time.deltaTime;
+            timer += Time.deltaTime * 2;
 
         }
     }

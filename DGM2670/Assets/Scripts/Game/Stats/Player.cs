@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -9,10 +10,6 @@ public class Player : MonoBehaviour
     private GameObject spawnPoint;
     public HealthBar healthBar;
 
-    public Stat damage;
-    public Stat armor;
-    
-    
     void Start()
     {
         playerHealth.value = maxHealth;
@@ -27,20 +24,24 @@ public class Player : MonoBehaviour
         {
             Die();
         }
+
+        if (healthBar.slider.value != playerHealth.value)
+        {
+            healthBar.slider.value = playerHealth.value;
+        }
     }
 
     public void TakeDamage(int damage)
     {
-        damage -= armor.GetValue();
-        damage = Mathf.Clamp(damage, 0, int.MaxValue);
+        damage -= DefensePlus.defensePlus;
 
         playerHealth.value -= damage;
         healthBar.SetHealth(playerHealth.value); //update healthbar
         
     }
-    
 
-    public virtual void Die()
+
+    public void Die()
     {
         //player death
         currentLives -= 1;
@@ -51,12 +52,12 @@ public class Player : MonoBehaviour
         spawnPoint = Checkpoint.checkPoint;
         transform.position = spawnPoint.transform.position;
         
-        //reset death
+        //Lives gone: reset level
         if (currentLives <= 0)
         {
             currentLives = 0;
             
-            //game over
+            SceneManager.LoadScene("DeathMenu");
         }
     }
 
@@ -71,5 +72,6 @@ public class Player : MonoBehaviour
         {
             Die();
         }
+        
     }
 }

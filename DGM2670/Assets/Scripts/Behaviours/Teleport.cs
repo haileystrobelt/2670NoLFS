@@ -7,6 +7,10 @@ public class Teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        player.transform.position = teleportTarget.transform.position;
+        if (other.CompareTag("Player"))
+        {
+            player.transform.position = teleportTarget.transform.position;
+        }
+        
     }
 }

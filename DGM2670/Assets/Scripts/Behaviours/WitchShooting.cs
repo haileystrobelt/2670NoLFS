@@ -5,13 +5,12 @@ public class WitchShooting : MonoBehaviour
     public GameObject bullet;
     public Transform target;
 
-    private float fireRate;
+    public float fireRate = .5f;
     private float nextFire;
     
     
     private void Start()
     {
-        fireRate = .5f;
         nextFire = Time.time;
     }
 

@@ -4,18 +4,17 @@
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Consumable")]
 public class Consumable : Item {
 
-    public int healthGain;
- 
+    public IntData playerHealth;
+
+
+    [SerializeField] public int healthGain;
     public override void Use()
     {
-        //PlayerStats playerStats = Player.instance.playerStats;
-        //playerStats.Heal(healthGain);
+        playerHealth.value += healthGain;
 
         Debug.Log(name + " consumed!");
-
-        //RemoveFromInventory();	// Remove the item after use
+        
+        Inventory.instance.Remove(this);
+        
     }
-    
-    
-
 }

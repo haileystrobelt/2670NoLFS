@@ -31,7 +31,7 @@ public class AIBehaviour : MonoBehaviour
                 distance = agent.remainingDistance;
                 yield return wffu;
             }
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(0f);
 
             StartCoroutine(canHunt ? OnTriggerEnter(other) : Patrol());
         }
@@ -49,13 +49,15 @@ public class AIBehaviour : MonoBehaviour
         if (gameObject != null)
         {
             canPatrol = true;
+            
+            while (canPatrol)
+            {
+                yield return wffu;
+                if (agent.pathPending || !(agent.remainingDistance < 0.5f)) continue;
+                agent.destination = patrolPoints[i].position;
+                i = (i + 1) % patrolPoints.Count;
+            }
         }
-        while (canPatrol)
-        {
-            yield return wffu;
-            if (agent.pathPending || !(agent.remainingDistance < 0.5f)) continue;
-            agent.destination = patrolPoints[i].position;
-            i = (i + 1) % patrolPoints.Count;
-        }
+        
     }
 }

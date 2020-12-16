@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc3bc6926794b64bade0857efd09183, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  name: Apple
+  icon: {fileID: 21300000, guid: 500e741d9fbbb37479d95e2f72703629, type: 3}
+  isDefaultItem: 0
+  playerHealth: {fileID: 11400000, guid: 760275166e9e40d4fa57a1cf8cf5b3e0, type: 2}
+  healthBar: {fileID: 8321383381577253693, guid: dda8691c8d31a6745836cda741e23343, type: 3}
+  healthGain: 40

@@ -2,7 +2,7 @@
 
 public class PlayerStats : Player
 {
-    void Start()
+    /*void Start()
     {
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
     }
@@ -21,7 +21,7 @@ public class PlayerStats : Player
             damage.RemoveModifier(oldItem.damageModifier);
         }
     }
-
+*/
     public void Heal(int healthGain)
     {
         

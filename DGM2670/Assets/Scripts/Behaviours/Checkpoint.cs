@@ -4,7 +4,7 @@
 public class Checkpoint : MonoBehaviour
 {
     public static GameObject checkPoint;
-    [SerializeField] private Renderer obj;
+    [SerializeField] public Renderer obj;
 
     private void Start()
     {
@@ -14,10 +14,15 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && gameObject != null)
         {
             checkPoint = gameObject;
             obj.material.color = Color.blue;
         }
+    }
+
+    public void OnDestroy()
+    {
+        Destroy(gameObject);
     }
 }

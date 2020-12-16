@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour {
 
     public Animator animator;
 
-    private Queue<string> sentences;
+    public Queue<string> sentences;
 
     // Use this for initialization
     void Start () {
@@ -56,11 +56,12 @@ public class DialogueManager : MonoBehaviour {
         }
     }
 
-    void EndDialogue()
+    public virtual void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
     }
 
+    
 }
 
 
