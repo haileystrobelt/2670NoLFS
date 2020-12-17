@@ -15,4 +15,5 @@ MonoBehaviour:
   name: Watermelon
   icon: {fileID: 21300000, guid: 8c0c18f0026202b44806f2ee5d962c53, type: 3}
   isDefaultItem: 0
+  playerHealth: {fileID: 11400000, guid: 760275166e9e40d4fa57a1cf8cf5b3e0, type: 2}
   healthGain: 80

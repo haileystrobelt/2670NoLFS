@@ -5,9 +5,7 @@ public class DefensePlus : Item
 {
     public int difference = 10;
     public static int defensePlus = 0;
-
-
-    [SerializeField] public int attackGain;
+    
     public override void Use()
     {
         defensePlus = difference;

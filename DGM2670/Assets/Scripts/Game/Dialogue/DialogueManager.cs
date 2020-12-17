@@ -10,7 +10,8 @@ public class DialogueManager : MonoBehaviour {
 
     public Animator animator;
 
-    public Queue<string> sentences;
+    private Queue<string> sentences; 
+    public static bool isOpen = true;
 
     // Use this for initialization
     void Start () {
@@ -37,6 +38,7 @@ public class DialogueManager : MonoBehaviour {
     {
         if (sentences.Count == 0)
         {
+            isOpen = false;
             EndDialogue();
             return;
         }
@@ -61,8 +63,6 @@ public class DialogueManager : MonoBehaviour {
         animator.SetBool("IsOpen", false);
     }
 
-    
 }
-
 
 //Brackey's Tutorial

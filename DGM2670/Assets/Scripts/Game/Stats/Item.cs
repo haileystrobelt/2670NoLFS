@@ -8,7 +8,6 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public bool isDefaultItem = false;
     
-    public HealthBar healthBar;
 
     public virtual void Use()
     {

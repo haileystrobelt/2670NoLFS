@@ -6,6 +6,7 @@ public class Gem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        GemDisplay.gemAmount += 1;
         Destroy(gameObject);
         gemCount += 1;
     }

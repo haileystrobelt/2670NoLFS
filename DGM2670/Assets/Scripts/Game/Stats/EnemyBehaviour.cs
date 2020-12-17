@@ -2,18 +2,20 @@
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public int enemyHealth = 50;
+    private int playerAttack = 15;
 
-    public int playerAttack;
+    private int enemyHealth1 = 50;
+    private int enemyHealth2 = 75;
+    private int enemyHealth3 = 100;
+
 
     public Transform coin;
-    //private GameObject spawnPoint;
-    //public EnemyHealthBar enemyHealthBar;
     
     void Start()
     {
-        enemyHealth = 50;
-        //enemyHealthBar.SetMaxHealth(maxHealth);
+        enemyHealth1 = 50;
+        enemyHealth2 = 75;
+        enemyHealth3 = 100;
     }
 
     private void OnTriggerStay(Collider other)
@@ -21,36 +23,68 @@ public class EnemyBehaviour : MonoBehaviour
         if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.H))
         {
             playerAttack += AttackPlus.attackPlus;
-            enemyHealth -= playerAttack;
-            //enemyHealthBar.SetHealth(enemyHealth);
-
-            if (enemyHealth <= 0)
+            
+            
+            if (CompareTag("Enemy1"))
             {
-                Destroy(transform.parent.gameObject); //destroy enemy
+                enemyHealth1 -= playerAttack;
                 
-                //spawn 3 coins at enemy's position, each coin 2 units apart.
-                Vector3 pos = new Vector3(0f, 2f, 0f);
-                Vector3 pos2 = new Vector3(0f, 4f, 0f);
+                if (enemyHealth1 <= 0)
+                {
+                    Destroy(transform.parent.gameObject); //destroy enemy
+                    
+                    Debug.Log("Earned 1 Coin!");
 
-                if (CompareTag("Enemy1"))
-                {
                     Instantiate(coin, transform.position, Quaternion.identity);
                 }
-                if (CompareTag("Enemy2"))
-                {
-                    Instantiate(coin, transform.position, Quaternion.identity);
-                    Instantiate(coin, transform.position + pos, Quaternion.identity);
-                }
-                if (CompareTag("Enemy3"))
-                {
-                    Instantiate(coin, transform.position, Quaternion.identity);
-                    Instantiate(coin, transform.position + pos, Quaternion.identity);
-                    Instantiate(coin, transform.position + pos2, Quaternion.identity);
-                }
-                
-                
-                
             }
+
+            
+            
+            if (CompareTag("Enemy2"))
+            {
+                enemyHealth2 -= playerAttack;
+                
+                
+                if (enemyHealth2 <= 0)
+                {
+                    Destroy(transform.parent.gameObject); //destroy enemy
+                
+
+                    Vector3 pos = new Vector3(0f, 2f, 0f);
+
+                    Debug.Log("Earned 2 Coins!");
+
+                    Instantiate(coin, transform.position, Quaternion.identity);
+                    Instantiate(coin, transform.position + pos, Quaternion.identity);
+                }
+            }
+
+            
+            if (CompareTag("Enemy3"))
+            {
+                enemyHealth3 -= playerAttack;
+                
+                
+                if (enemyHealth3 <= 0)
+                {
+                    Destroy(transform.parent.gameObject); //destroy enemy
+                    
+                    Vector3 pos = new Vector3(0f, 2f, 0f);
+                    Vector3 pos2 = new Vector3(0f, 4f, 0f);
+                
+                    if (CompareTag("Enemy3"))
+                    {
+                        Instantiate(coin, transform.position, Quaternion.identity);
+                        Instantiate(coin, transform.position + pos, Quaternion.identity);
+                        Instantiate(coin, transform.position + pos2, Quaternion.identity);
+                    }
+
+                }
+            }
+
+
+            
         }
             
         

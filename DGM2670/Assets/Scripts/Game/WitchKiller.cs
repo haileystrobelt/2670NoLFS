@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WitchKiller : MonoBehaviour
 {
     private int witchCount = 3;
-    public GameObject spider1, spider2, spider3;
+    public GameObject spider;
     public Transform transform1, transform2, transform3;
 
     
@@ -15,9 +16,10 @@ public class WitchKiller : MonoBehaviour
             Destroy(other.gameObject); //destroy cauldron
             //spider dialogue
             //spawn spiders
-            Instantiate(spider1, transform1.position, Quaternion.identity); 
-            Instantiate(spider2, transform2.position, Quaternion.identity);
-            Instantiate(spider3, transform3.position, Quaternion.identity);
+            spider.transform.SetParent(null);
+            Instantiate(spider, transform1.position, Quaternion.identity); 
+            Instantiate(spider, transform2.position, Quaternion.identity);
+            Instantiate(spider, transform3.position, Quaternion.identity);
             if (witchCount <= 0)
             {
                 Die();
@@ -29,5 +31,6 @@ public class WitchKiller : MonoBehaviour
     {
         //Death dialogue
         Destroy(gameObject);
+        SceneManager.LoadScene("WinScene");
     }
 }

@@ -29,11 +29,22 @@ public class Player : MonoBehaviour
         {
             healthBar.slider.value = playerHealth.value;
         }
+
+        if (playerHealth.value > 100) //if you heal yourself
+        {
+            playerHealth.value = 100; //health can't go over 100
+            /*currentLives += 1; //lives 
+            
+            if (currentLives > maxLives) //lives can't go over 5
+            {
+                currentLives = maxLives;
+            }*/
+        }
     }
 
     public void TakeDamage(int damage)
     {
-        damage -= DefensePlus.defensePlus;
+        //damage -= DefensePlus.defensePlus;
 
         playerHealth.value -= damage;
         healthBar.SetHealth(playerHealth.value); //update healthbar

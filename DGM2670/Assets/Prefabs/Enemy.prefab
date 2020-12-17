@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5497349146973986898}
   m_Layer: 0
   m_Name: AttackRegion
-  m_TagString: Enemy
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,8 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: 760275166e9e40d4fa57a1cf8cf5b3e0, type: 2}
-  enemyDamage: 15
-  healthBar: {fileID: 0}
+  enemyDamage: 20
 --- !u!114 &5497349146973986898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c11b9feeec200d94190daa1a653f4ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 50
+  enemyHealth: 75
   coin: {fileID: 1091232846111927790, guid: 887d446423294f744ade68fc82d9f1d1, type: 3}
 --- !u!1 &5497349147043556935
 GameObject:
@@ -100,9 +99,10 @@ GameObject:
   - component: {fileID: 5497349147043556933}
   - component: {fileID: 5497349147043556934}
   - component: {fileID: 5497349147043556952}
+  - component: {fileID: 1171397233}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Enemy
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 564e0fbf2ff87544098fda24292ad55e, type: 2}
+  - {fileID: 2100000, guid: 1dd9f8aba7842484fb866fcd2a4efa77, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -236,3 +236,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15.539601, y: 4.3398438, z: 17.040836}
   m_Center: {x: 0.03298345, y: 1.1699225, z: -0.30941486}
+--- !u!114 &1171397233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5497349147043556935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a10c7e16c94ee2408aaded79d7652fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 5827105472941924619, guid: 2c64dda7b5cdd2c4686a4dcf214935ea, type: 3}
+  target: {fileID: 0}
+  fireRate: 3

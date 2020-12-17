@@ -18,4 +18,5 @@ public class TriggerEventsBehaviour : MonoBehaviour
         yield return waitObj;
         triggerEnterEvent.Invoke();
     }
+    
 }

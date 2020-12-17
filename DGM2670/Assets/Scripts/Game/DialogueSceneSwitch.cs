@@ -1,5 +1,4 @@
-﻿
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 
 public class DialogueSceneSwitch : DialogueManager
 {
@@ -8,10 +7,5 @@ public class DialogueSceneSwitch : DialogueManager
         SceneManager.LoadScene("MainGame");
     }
 
-    
-
-
-    
-    
     
 }

@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff2360180112c9b43b2cfb5e452b15e3, type: 3}
   m_Name: AttackPlus
   m_EditorClassIdentifier: 
-  name: New Item
-  icon: {fileID: 0}
+  name: Attack Enchantment
+  icon: {fileID: 21300000, guid: b17096cacf0aa1f48b112084c1519bbd, type: 3}
   isDefaultItem: 0
-  healthBar: {fileID: 0}
   difference: 10
-  attackGain: 0

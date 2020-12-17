@@ -48,7 +48,7 @@ TagManager:
   - Boulder
   - BoulderTrigger
   - 
-  - 
+  - NPC
   m_SortingLayers:
   - name: Default
     uniqueID: 0

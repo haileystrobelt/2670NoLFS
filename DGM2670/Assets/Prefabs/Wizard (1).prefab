@@ -138,6 +138,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3da37027060ace49bf732cebcadba26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: 
-    sentences: []

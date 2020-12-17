@@ -168,6 +168,7 @@
             <e p="RattleBridge.cs" t="Include" />
             <e p="RattleskinDisplay.cs" t="Include" />
             <e p="snakeAttack.cs" t="Include" />
+            <e p="SnakeSkin.cs" t="Include" />
             <e p="spiderAI.cs" t="Include" />
             <e p="Stats" t="Include">
               <e p="CharacterCombat.cs" t="Include" />
@@ -189,6 +190,7 @@
             <e p="UIShop.cs" t="Include" />
             <e p="WitchBehaviour.cs" t="Include" />
             <e p="WitchKiller.cs" t="Include" />
+            <e p="WitchStart.cs" t="Include" />
           </e>
           <e p="ScriptableObjects" t="Include">
             <e p="CharacterBrain.cs" t="Include" />
@@ -240,6 +242,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="WitchCheckpoint.cs" t="Include" />
       </e>
       <e p="DGM2670.sln" t="IncludeFlat" />
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />

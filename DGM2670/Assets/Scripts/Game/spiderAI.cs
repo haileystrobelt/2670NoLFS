@@ -15,8 +15,6 @@ public class spiderAI : MonoBehaviour
     public int enemyHealth = 30;
     private float damageTime = 1f;
     public IntData playerHealth;
-    public HealthBar healthBar;
-    
     //enemy health
     
     
@@ -42,8 +40,6 @@ public class spiderAI : MonoBehaviour
             {
                 timer -= damageTime;
                 playerHealth.value -= spiderDamage;
-                healthBar.SetHealth(playerHealth.value);
-                
             }
 
             timer += Time.deltaTime;
